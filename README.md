@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+Creating art and kicking ass (And code, too.) ✨
+
+
 <!--
 **ArcticCerfi/ArcticCerfi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
