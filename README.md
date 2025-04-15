@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-Creating art and kicking ass (And code, too.) ✨
+Creating art and kicking ass (And code, too. sometimes.) ✨
 
 
 <!--
