@@ -156,7 +156,7 @@ _ROOT
 
 ## OTHER NOTES
 
-IMPORTANT: Names in this System can turn out quite long. I always make sure they don't exceed L2Ds character cap. But if you glue 2 long-named layer together and your glue's ID turns out too long, your exports will fail and L2D will not give you a warning besides an error in the console. So be mindful of that!
+IMPORTANT: Names in this System can turn out quite long at high separation detail. I always make sure they don't exceed L2Ds character cap. But if you glue 2 long-named layer together and your glue's ID turns out too long, your exports will fail and L2D will not give you a warning besides an error in the console. So be mindful of that and rename your glues if they turn out too long!
 
 Mouths are drawn as a neutral straight line to minimize rigging artifacts. The actual mouth layers are hidden by default, with a visible Mouth_DUMMY layer that should be deleted or hidden before rigging.
 
