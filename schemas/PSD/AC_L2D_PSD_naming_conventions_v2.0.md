@@ -85,7 +85,8 @@ _F / _B			Front / Back pieces of parts that are separated in depth or a front an
 _T / _Bo		Top / Bottom
 _In / _Ou		Inner / Outer
     
-These can also be used to describe faces of geometric objects. L & R are always encased in underscores to ensure easy Find & Replacing in L2D.
+These can also be used to describe faces of geometric objects.
+L & R are always encased in underscores to ensure easy Find & Replacing in L2D.
 ```
 
 ### TYPE
