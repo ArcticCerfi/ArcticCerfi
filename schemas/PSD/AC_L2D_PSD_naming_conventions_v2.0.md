@@ -54,29 +54,29 @@ Layer Groups are prefixed with a single underscore.
 
 ### VARIATIONS
 ```
-Different Variations of parts (e.g. for outfits, hairstyles, etc.) need an identifying attribute.
+Different Variations of parts (e.g. for outfits, hairstyles, etc.) have an identifying attribute.
 The attribute only needs to be present in the chain once.
 
+For example:
+	
 Outfits:
-_OF1  			Outfit #1
-_OF2  			Outfit #2
-
-Arm toggles:
-_ATogMic		Holding a microphone
-_ATogPet		Holding a mascot/pet
-
+    
+_OF1  			Outfit 1
+_OF2  			Outfit 2
+    
+    
 Hairstyles:
-_HS1			Hairstyle #1
-_HS2			Hairstyle #2
-
-...
-
+    
+_HS1			Hairstyle 1
+_HS2			Hairstyle 2
+    
+	
 Situational variations (unplanned or one-off):
-_ALT1			Variation 1 of the base object
-_ALT2			Variation 2 of the base object
-
+	
+_ALT			Variation of the base object (Obvious enough from context)    
 ...
 ```
+
 ### POSITIONS
 
 ```
