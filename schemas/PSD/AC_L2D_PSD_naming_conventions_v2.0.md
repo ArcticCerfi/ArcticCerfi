@@ -80,9 +80,12 @@ _ALT2			Variation 2 of the base object
 ### POSITIONS
 
 ```
-_L / _R			Left / Right position of the part relative to the model's viewpoint, or if nested, the parent part
-_F / _B			Front / Back pieces of parts that are separated in depth (Typically parts that go around something else)
-_Top / _Bot		Top / Bottom
+_L / _R			Left / Right position of the part relative to the model's view
+_F / _B			Front / Back pieces of parts that are separated in depth or a front and a general rear surface
+_T / _Bo		Top / Bottom
+_In / _Ou		Inner / Outer
+    
+These can also be used to describe faces of geometric objects
 ```
 
 ### TYPE
@@ -112,23 +115,6 @@ _ADD  			Layer Mode: Additive
 
 Layers without one of these are implied to use "Normal".
 ```
-
-### FACES & GEOMETRY
-
-```
-"_Face" describes visible planes of geometric objects. The definition of what counts as a face, is very loose here.
-
-Often:
-_Face_F			Front face of an object (most visible to viewer)
-_Face_B 		Back face or a general rear surface that isn't the front
-
-More rarely:
-_Face_L			Left side face of an object
-_Face_R 		Right side face of an object
-_Face_T 		Top face of an object
-_Face_Bo 		Bottom face of an object
-```
-
 
 ## EXAMPLE HIERARCHY DEMO
 ```
