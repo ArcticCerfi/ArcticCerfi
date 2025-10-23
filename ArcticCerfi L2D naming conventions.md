@@ -54,7 +54,8 @@ Layer Groups are prefixed with a single underscore.
 
 ### VARIATIONS
 ```
-Different Variations of parts (e.g. for outfits, hairstyles, etc.) need an identifying attribute. The attribute only needs to be present in the chain once.
+Different Variations of parts (e.g. for outfits, hairstyles, etc.) need an identifying attribute.
+The attribute only needs to be present in the chain once.
 
 Outfits:
 _OF1  			Outfit #1
