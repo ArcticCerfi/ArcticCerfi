@@ -7,7 +7,6 @@ It might look detailed, but it's mostly straightforward once you see it in actio
 If you notice anything that could make things clearer or easier, feel free to tell me! I'm always down to improve the setup.
 
 ## CORE PRINCIPLES
----
 
 - L2D-legal characters: letters, numbers, underscores.
 - Each layer name must be 100% unique to ensure proper automatic ID generation in L2D.
@@ -19,7 +18,6 @@ If you notice anything that could make things clearer or easier, feel free to te
 
 
 ## BASIC SCHEMA
----
 
 Layer names describe structure from broad to specific.
 Each name can be read like a path: e.g. Part -> Subpart -> Attributes
@@ -40,7 +38,6 @@ Layer Groups are prefixed with a single underscore.
 
 
 ## SEPARATORS
----
 
 ```
 "CamelCase" 	Words that belong together 							(e.g. "HighlightSmall")
@@ -49,10 +46,9 @@ Layer Groups are prefixed with a single underscore.
 ```
 
 
--------------------------------------------------
+---
 
 ## ATTRIBUTES
----
 
 ### VARIATIONS
 ```
@@ -130,10 +126,9 @@ _Face_T 		Top face of an object
 _Face_Bo 		Bottom face of an object
 ```
 
--------------------------------------------------
+---
 
 ## EXAMPLE HIERARCHY DEMO
----
 ```
 _ROOT
 └── _Head											
