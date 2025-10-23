@@ -50,8 +50,6 @@ Layer Groups are prefixed with a single underscore.
 ```
 
 
----
-
 ## ATTRIBUTES
 
 ### VARIATIONS
@@ -130,7 +128,6 @@ _Face_T 		Top face of an object
 _Face_Bo 		Bottom face of an object
 ```
 
----
 
 ## EXAMPLE HIERARCHY DEMO
 ```
