@@ -11,11 +11,10 @@ If you notice anything that could make things clearer or easier, feel free to te
 
 - L2D-legal characters: letters, numbers, underscores.
 - Each layer name must be 100% unique to ensure proper automatic ID generation in L2D.
-- Layers must be easily renameable by L2D's "Find & Replace" feature (e.g. renaming _R_ to _L_ when mirroring parts).
+- Layers must be easily renameable by L2D's "Find & Replace" feature (e.g. renaming R to L when mirroring parts).
 - Keep names as descriptive as possible but as short as context allows.
 - Pass information about Layer modes, clipping, etc. onto a rigger (or myself) efficiently and hassle-free.
-- Consistency beats brevity: only shorten when scope is obvious.
-- Names are human-readable and follow a structure that is sufficiently verifiable by a machine.
+- Names are human-readable and follow a structure that is sufficiently verifiable by a script.
 
 
 ## BASIC SCHEMA
@@ -157,7 +156,9 @@ _ROOT
 
 ## OTHER NOTES
 
-Mouths are drawn as a neutral straight line to minimize rigging artifacts. The actual mouth layers are hidden by default, with a visible ```Mouth_DUMMY``` layer that should be deleted or hidden before rigging.
+IMPORTANT: Names in this System can turn out quite long. I always make sure they don't exceed L2Ds character cap. But if you glue 2 long-named layer together and your glue's ID turns out too long, your exports will fail and L2D will not give you a warning besides an error in the console. So be mindful of that!
+
+Mouths are drawn as a neutral straight line to minimize rigging artifacts. The actual mouth layers are hidden by default, with a visible Mouth_DUMMY layer that should be deleted or hidden before rigging.
 
 Arm toggles are fully drawn out (with additional upper arms), but often it's more convenient to reuse the base upper arm in rigging.
 
