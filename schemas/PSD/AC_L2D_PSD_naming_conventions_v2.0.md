@@ -160,3 +160,5 @@ _ROOT
 Mouths are drawn as a neutral straight line to minimize rigging artifacts. The actual mouth layers are hidden by default, with a visible ```Mouth_DUMMY``` layer that should be deleted or hidden before rigging.
 
 Arm toggles are fully drawn out (with additional upper arms), but often it's more convenient to reuse the base upper arm in rigging.
+
+Naming mistakes can still happen, I'm just human and sometimes miss things :)
