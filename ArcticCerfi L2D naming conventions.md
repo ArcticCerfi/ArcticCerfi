@@ -25,11 +25,11 @@ Each name can be read like a path: e.g. Part -> Subpart -> Attributes
 
 Each Descriptor in the Hierarchy is built like this:
 
-``` [PartName]_[Attributes] ```
+> ```[PartName]_[Attributes]```
 
 They are then chained together like this, going down the Hierarchy:
 
-```	[ParentDescriptor]__[ParentDescriptor]__...__[PartDescriptor] ```
+> ```[ParentDescriptor]__[ParentDescriptor]__...__[PartDescriptor]```
 
 
 Parents may be omitted in favor of name length when the part is obviously identifiable from context and it doesn't risk having duplicates.
