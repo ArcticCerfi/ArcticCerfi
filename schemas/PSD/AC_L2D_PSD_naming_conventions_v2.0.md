@@ -154,3 +154,7 @@ _ROOT
 │			└── Jacket_OF1__Arm_L__Upper_LINE
 └── ...
 ```
+
+## Other Notes
+
+Mouths are drawn as a neutral straight line to minimize rigging artifacts. The actual mouth layers are hidden by default, with a visible Dummy_Mouth layer that should be deleted or hidden before rigging.
