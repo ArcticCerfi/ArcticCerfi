@@ -35,7 +35,7 @@ Each Descriptor in the Hierarchy is built like this:
 They are then chained together like this, going down the Hierarchy:
 
 > ```
-> [ParentDescriptor]__[ParentDescriptor]__...__[PartDescriptor]
+> [(VARIANT)]__[ParentDescriptor]__[ParentDescriptor]__...__[PartDescriptor]
 > ```
 
 
