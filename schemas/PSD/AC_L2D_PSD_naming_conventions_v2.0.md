@@ -51,24 +51,23 @@ Numbers cannot appear at the end of a name. If they do, an underscore is appende
 "__" 			Separates hierarchy levels 							(e.g. "Eye_L__Iris__HighlightSmall")
 ```
 
-
-## ATTRIBUTES
-
-### VARIATIONS
+## VARIANTS
 ```
-Different Variations of parts (e.g. for outfits, hairstyles, etc.) have an identifying attribute.
-The attribute only needs to be present in the top most parent of the chain.
+Different Variations of parts (e.g. outfits & hairstyles) have an identifying prefix that is presented as an implied parent ("__").
 	
 Outfits:
-_O1  			Outfit 1
-_O2  			Outfit 2
+O1__  			Outfit 1
+O2__  			Outfit 2
     
 Hairstyles:
-_H1				Hairstyle 1
-_H2				Hairstyle 2
+H1__			Hairstyle 1
+H2__			Hairstyle 2
     
 Situational variations (unplanned or one-off):
-_Alt1			Alt-Variation 1 of the base object
+Alt1__			Alt-Variation 1 of the base object
+
+
+## ATTRIBUTES
 
 ```
 
