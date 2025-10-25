@@ -48,16 +48,18 @@ Numbers cannot appear at the end of a name. If they do, an underscore is appende
 ## SEPARATORS
 
 ```
-"CamelCase" 	Words that belong together 							(e.g. "HighlightSmall")
+"CamelCase" 	Labels					 							(e.g. "HighlightSmall")
 "_" 			Joins labels & attributes on the same level 		(e.g. "Eye_L")
 "__" 			Separates hierarchy levels 							(e.g. "Eye_L__Iris__HighlightSmall")
 ```
 
 ## VARIANTS
 ```
-Different Variations of parts (e.g. outfits & hairstyles) have an identifying prefix that is presented as an implied parent ("__").
+Different variations of parts (e.g. outfits & hairstyles) have an identifying prefix that is presented as an implied parent ("__").
 
 When multiple variants share the same part names (e.g. Bangs), the variant prefix ensures unique IDs.
+
+The definition of what counts as part of an outfit or hairstyle is not always cut and dry. So this rule is only strict for parts that risk having duplicates. (e.g. actual hair strands vs accessories on the hair)
 	
 Outfits:
 O1__  			Outfit 1
@@ -89,7 +91,7 @@ L & R are always encased in underscores to ensure easy Find & Replacing in L2D.
 ### TYPE
 
 ```
-_LN 			Layer that prepresents the lineart of an object. Can be 
+_LINE 			Layer that prepresents the lineart of an object. Can be 
 _REF			A reference or guide.
 _DUM  			Dummy layers just for visuals in an art program, these aren't needed for rigging. Often in combination with _REF.
 _DUP  			Layers that are only drawn once, but needed multiple times on the model. To be duplicated in L2D after they are rigged.
