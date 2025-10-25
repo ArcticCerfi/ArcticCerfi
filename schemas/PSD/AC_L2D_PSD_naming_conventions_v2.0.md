@@ -54,6 +54,8 @@ Numbers cannot appear at the end of a name. If they do, an underscore is appende
 ## VARIANTS
 ```
 Different Variations of parts (e.g. outfits & hairstyles) have an identifying prefix that is presented as an implied parent ("__").
+
+When multiple variants share the same part names (e.g. Bangs), the variant prefix ensures unique IDs.
 	
 Outfits:
 O1__  			Outfit 1
@@ -63,7 +65,7 @@ Hairstyles:
 H1__			Hairstyle 1
 H2__			Hairstyle 2
     
-Situational variations (unplanned or one-off):
+Situational variations (unplanned, one-off or when the base object's name cannot be modified anymore):
 Alt1__			Alt-Variation 1 of the base object
 ```
 
