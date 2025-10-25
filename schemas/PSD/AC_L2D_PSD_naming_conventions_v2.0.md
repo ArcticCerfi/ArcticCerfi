@@ -41,6 +41,7 @@ Parents may be omitted in favor of name length when the part is obviously identi
 
 Layer Groups are prefixed with a single underscore.
 
+Numbers cannot appear at the end of a name. If they do, an underscore is appended.
 
 ## SEPARATORS
 
@@ -56,26 +57,19 @@ Layer Groups are prefixed with a single underscore.
 ### VARIATIONS
 ```
 Different Variations of parts (e.g. for outfits, hairstyles, etc.) have an identifying attribute.
-The attribute only needs to be present in the chain once.
-
-For example:
+The attribute only needs to be present in the top most parent of the chain.
 	
 Outfits:
-    
-_OF1  			Outfit 1
-_OF2  			Outfit 2
-    
+_O1  			Outfit 1
+_O2  			Outfit 2
     
 Hairstyles:
+_H1				Hairstyle 1
+_H2				Hairstyle 2
     
-_HS1			Hairstyle 1
-_HS2			Hairstyle 2
-    
-	
 Situational variations (unplanned or one-off):
-	
-_ALT			Variation of the base object (Obvious enough from context)    
-...
+_Alt1			Alt-Variation 1 of the base object
+
 ```
 
 ### POSITIONS
@@ -84,7 +78,7 @@ _ALT			Variation of the base object (Obvious enough from context)
 _L / _R			Left / Right position of the part relative to the model's view
 _F / _B			Front / Back pieces of parts that are separated in depth or a front and a general rear surface
 _T / _Bo		Top / Bottom
-_In / _Ou		Inner / Outer
+_In / _Ou		Inner / Outer (Inner = closer to canvas center OR inner part of a shape)
     
 These can also be used to describe faces of geometric objects.
 L & R are always encased in underscores to ensure easy Find & Replacing in L2D.
@@ -93,20 +87,19 @@ L & R are always encased in underscores to ensure easy Find & Replacing in L2D.
 ### TYPE
 
 ```
-_LINE 			A solid linefill layer that sits behind a color layer, often used when 2 pieces share the same lineart.
-_LINEART		A "hollow" lineart layer that sits above a color layer. More rare, thus the longer naming.
+_LINE 			Layer that prepresents the lineart of an object. Can be 
 _REF			A reference or guide.
-_DUMMY			Layers just for visuals in an art program, these aren't needed for rigging. Often in combination with _REF.
+_DUM  			Layers just for visuals in an art program, these aren't needed for rigging. Often in combination with _REF.
 _DUP  			Layers that are only drawn once, but needed multiple times on the model. To be duplicated in L2D after they are rigged.
-_DELETE			CSP only layers. Delete before PSD export (If you see one of these in a delivery, I made a mistake. Feel free to shame me :p).
+_DEL			CSP only layers. Delete before PSD export (If you see one of these in a delivery, I made a mistake. Feel free to shame me :p).
 ```
 
 ### EFFECTS AND MASKS
 
 ```
-_MASK 			Layers that are clipped onto other layers. Target should be obvious from context.
-_INVMASK		Layers that are an invert mask for other layers.
-_SHINE			A shine effect that is able to be moved separately from the object. Almost always has a clipping mask and layer mode.
+_CL 			Layers that are clipped onto other layers. Target should be obvious from context. If applied to a group its meant to use offscreen rendering OR apply to all child layers, in case of an older Cubism version.
+_MSK			Layers that are an invert mask for other layers.
+_SHN			A shine effect that is able to be moved separately from the object. Almost always has a clipping mask and layer mode.
 ```
 
 ### LAYER MODES
@@ -131,14 +124,14 @@ _ROOT
 │		└──	Eye_L__Sclera
 │		└── ...
 └── _Body
-│	└── _Jacket_OF1
-│		└── _Jacket_OF1__Arm_L
-│			└── Jacket_OF1__Arm_L__Upper
-│			└── Jacket_OF1__Arm_L__Lower
-│			└── _Jacket_OF1__Arm_L__Sleeve
+│	└── _Jacket_O1
+│		└── _Jacket_O1__Arm_L
+│			└── Jacket_O1__Arm_L__Upper
+│			└── Jacket_O1__Arm_L__Lower
+│			└── _Jacket_O1__Arm_L__Sleeve
 │			│		└── ...
-│			└── Jacket_OF1__Arm_L__Lower_LINE
-│			└── Jacket_OF1__Arm_L__Upper_LINE
+│			└── Jacket_O1__Arm_L__Lower_LINE
+│			└── Jacket_O1__Arm_L__Upper_LINE
 └── ...
 ```
 
@@ -150,4 +143,4 @@ Mouths are drawn as a neutral straight line to minimize rigging artifacts. The a
 
 Arm toggles are fully drawn out (with additional upper arms), but often it's more convenient to reuse the base upper arm in rigging.
 
-Naming mistakes can still happen, I'm just human and sometimes miss things :)
+Naming mistakes can still happen, I'm just human and humans are sometimes dumb and miss things :)
