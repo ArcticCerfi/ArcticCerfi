@@ -65,11 +65,9 @@ H2__			Hairstyle 2
     
 Situational variations (unplanned or one-off):
 Alt1__			Alt-Variation 1 of the base object
-
+```
 
 ## ATTRIBUTES
-
-```
 
 ### POSITIONS
 
