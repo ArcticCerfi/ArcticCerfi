@@ -65,7 +65,7 @@ Hairstyles:
 H1__			Hairstyle 1
 H2__			Hairstyle 2
     
-Situational variations (unplanned, one-off or when the base object's name cannot be modified anymore):
+Situational variations (situational or when the base object's name cannot be modified anymore):
 Alt1__			Alt-Variation 1 of the base object
 ```
 
