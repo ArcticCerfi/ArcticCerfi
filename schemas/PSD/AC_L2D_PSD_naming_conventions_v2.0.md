@@ -1,4 +1,5 @@
 # ArcticCerfi :: Live2D Layer Naming Conventions v2.0
+
 (Updated October 2025) (unused)
 
 This document explains how I name and organize layers in my PSDs for Live2D use.
@@ -9,6 +10,7 @@ I would highly appreciate feedback about how working with this system went for y
 
 And if you encounter ANY issues or questions with my PSDs, you can ALWAYS reach out to me. I'm more than happy to assist.
 
+
 ## CORE PRINCIPLES
 
 - L2D-legal naming: letters, numbers, underscores, less than 64 characters
@@ -17,6 +19,7 @@ And if you encounter ANY issues or questions with my PSDs, you can ALWAYS reach 
 - Keep names as descriptive as possible but as short as context allows.
 - Pass information about Layer modes, clipping, etc. onto a rigger (or myself) efficiently and hassle-free.
 - Names are human-readable and follow a structure that is sufficiently verifiable by a potential future linting script.
+
 
 ## BASIC SCHEMA
 
@@ -49,6 +52,7 @@ If there's no number at the end, it just appends "2" which can easily be batch-r
 L and R always need to be sorrounded by underscores. If thats not the case, replacing "_R" with "_L" can lead to words being broken (e.g. "_Reflection" -> "_Leflection").
 This way you can always replace "\_R\_" with "\_L\_" and theres never an issue.
 
+
 ## SEPARATORS
 
 ```
@@ -56,6 +60,7 @@ This way you can always replace "\_R\_" with "\_L\_" and theres never an issue.
 "_" 			Joins labels & attributes on the same level 		(e.g. "Eye_L")
 "__" 			Separates hierarchy levels 							(e.g. "Eye_L__Iris__HighlightSmall")
 ```
+
 
 ## VARIANTS
 ```
@@ -78,6 +83,7 @@ Generic variations:
 (situational or when the base object's name cannot be modified anymore)
 Alt1__			Alt-Variation 1 of the base object
 ```
+
 
 ## ATTRIBUTES
 
@@ -142,6 +148,7 @@ _ADD  			Layer Mode: Additive
 │			└── O1__Jacket__Arm_L__Upper_LINE
 └── ...
 ```
+
 
 ## ADDITIONAL NOTES
 
