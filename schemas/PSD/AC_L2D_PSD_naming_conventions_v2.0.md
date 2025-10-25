@@ -47,7 +47,7 @@ Numbers cannot appear at the end of a name. If they do, an underscore is appende
 If there's no number at the end, it just appends "2" which can easily be batch-replaced with nothing.
 
 L and R always need to be sorrounded by underscores. If thats not the case, replacing "_R" with "_L" can lead to words being broken (e.g. "_Reflection" -> "_Leflection").
-This way you can always replace "_R_" with "_L_" and theres never an issue.
+This way you can always replace "\_R\_" with "\_L\_" and theres never an issue.
 
 ## SEPARATORS
 
