@@ -102,7 +102,7 @@ _DEL			CSP only layers. Delete before PSD export (If you see one of these in a d
 ### EFFECTS AND MASKS
 
 ```
-_CL 			Layers that are clipped onto other layers. Target should be obvious from context. If applied to a group its meant to use offscreen rendering OR apply to all child layers, in case of an older Cubism version.
+_CL 			Layers that are clipped onto other layers. Target should be obvious from context. If applied to a group its meant to use offscreen drawing OR apply to all child layers, in case of an older Cubism version.
 _MSK			Layers that are an invert mask for other layers.
 _SHN			A shine effect that is able to be moved separately from the object. Almost always has a clipping mask and layer mode.
 ```
