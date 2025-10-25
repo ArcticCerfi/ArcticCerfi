@@ -154,6 +154,9 @@ _ADD  			Layer Mode: Additive
 
 ## ADDITIONAL NOTES
 
+NOTE: Live2D only supports up to 63 chars per name.
+Glue combines names when merging, if the result exceeds that limit, exports fail. So re-ID your glues when they get too long!
+
 This standard seems very strict, but in reality I use it pretty freely. When something would obviously be clearer out-of-standard, I usually put readability over consistency. For example, sometimes labels can be shortened or merged going down the hierarchy if the extra redundancy would just make it less readable than before.
 
 Mouths are drawn as a neutral straight line to minimize rigging artifacts. The actual mouth layers are hidden by default, with a visible dummy mouth layer that can be used as a ref for the neutral mouth state.
