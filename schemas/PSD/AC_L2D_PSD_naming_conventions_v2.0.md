@@ -89,7 +89,7 @@ L & R are always encased in underscores to ensure easy Find & Replacing in L2D.
 ```
 _LINE 			Layer that prepresents the lineart of an object. Can be 
 _REF			A reference or guide.
-_DUM  			Layers just for visuals in an art program, these aren't needed for rigging. Often in combination with _REF.
+_DUM  			Dummy layers just for visuals in an art program, these aren't needed for rigging. Often in combination with _REF.
 _DUP  			Layers that are only drawn once, but needed multiple times on the model. To be duplicated in L2D after they are rigged.
 _DEL			CSP only layers. Delete before PSD export (If you see one of these in a delivery, I made a mistake. Feel free to shame me :p).
 ```
