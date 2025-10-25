@@ -1,11 +1,12 @@
 # ArcticCerfi :: Live2D Layer Naming Conventions v2.0 
-(Updated October 2025)
+(Updated October 2025) (unused)
 
 This document explains how I name and organize layers in my PSDs for Live2D use.
 It's meant to make things consistent, clear, and easy to navigate for anyone rigging my models (including myself).
 It might look detailed, but it's mostly straightforward once you see it in action, it's just just a way to avoid confusion and keep everything tidy and predictable.
 
 If you notice anything that could make things clearer or easier, feel free to tell me! I'm always down to improve the setup.
+I would highly appreciate feedback about how working with this system went for you! But it's not mandatory ofc!
 
 ## CORE PRINCIPLES
 
