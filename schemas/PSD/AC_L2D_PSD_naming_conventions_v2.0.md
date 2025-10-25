@@ -7,6 +7,7 @@ It might look detailed, but it's mostly straightforward once you see it in actio
 
 If you notice anything that could make things clearer or easier, feel free to tell me! I'm always down to improve the setup.
 I would highly appreciate feedback about how working with this system went for you! But it's not mandatory ofc!
+And if you have ANY questions, you can ALWAYS reach out to me. I'm more than happy to help.
 
 ## CORE PRINCIPLES
 
