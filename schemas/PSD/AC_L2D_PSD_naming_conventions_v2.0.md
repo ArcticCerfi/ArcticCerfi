@@ -59,7 +59,8 @@ Different variations of parts (e.g. outfits & hairstyles) have an identifying pr
 
 When multiple variants share the same part names (e.g. Bangs), the variant prefix ensures unique IDs.
 
-The definition of what counts as part of an outfit or hairstyle is not always cut and dry. So this rule is only strict for parts that risk having duplicates. (e.g. actual hair strands vs accessories on the hair)
+The definition of what counts as part of an outfit or hairstyle is not always cut and dry.
+So this rule is pretty loose and only strict for parts that risk having duplicates. (e.g. actual hair strands vs accessories on the hair)
 	
 Outfits:
 O1__  			Outfit 1
