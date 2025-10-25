@@ -107,7 +107,6 @@ These can also be used to describe faces of geometric objects.
 
 ```
 _LINE 			Layer that represents the lineart of an object. Can be a linefill that sits behind, or a lineart that sits in front.
-_SHN			A shine effect that is able to be moved separately from the object. Almost always has a clipping mask and layer mode.
 _REF			A reference or guide.
 _DUM  			Dummy layers just for visuals in an art program, these aren't needed for rigging. Often in combination with _REF.
 _DUP  			Layers that are only drawn once, but needed multiple times on the model. To be duplicated in L2D after they are rigged.
