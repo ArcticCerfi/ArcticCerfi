@@ -158,6 +158,6 @@ This standard seems very strict, but in reality I use it pretty freely. When som
 
 Mouths are drawn as a neutral straight line to minimize rigging artifacts. The actual mouth layers are hidden by default, with a visible dummy mouth layer that can be used as a ref for the neutral mouth state.
 
-Arm toggles are fully drawn out (with additional upper arms), but often it's more convenient to reuse the base upper arm in rigging.
+Every PSD I make is checked with my PSD linting tool (https://github.com/ArcticCerfi/psdlint) to ensure it complies with L2Ds layer naming conventions!
 
-Naming mistakes can obviously still happen, I'm just human and humans are sometimes dumb and miss things :)
+Naming mistakes can obviously still happen, I'm just human and humans are sometimes dumb and miss things qwq
