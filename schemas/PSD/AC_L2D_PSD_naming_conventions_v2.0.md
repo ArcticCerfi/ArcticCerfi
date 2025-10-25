@@ -92,7 +92,7 @@ L & R are always encased in underscores to ensure easy Find & Replacing in L2D.
 ### TYPE
 
 ```
-_LINE 			Layer that prepresents the lineart of an object. Can be a linefill that sits behind or a lineart that sits infront.
+_LINE 			Layer that represents the lineart of an object. Can be a linefill that sits behind or a lineart that sits infront.
 _REF			A reference or guide.
 _DUM  			Dummy layers just for visuals in an art program, these aren't needed for rigging. Often in combination with _REF.
 _DUP  			Layers that are only drawn once, but needed multiple times on the model. To be duplicated in L2D after they are rigged.
