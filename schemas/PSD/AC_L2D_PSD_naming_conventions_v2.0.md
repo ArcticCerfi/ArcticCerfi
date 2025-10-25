@@ -108,7 +108,8 @@ _DEL			CSP only layers. Delete before PSD export (If you see one of these in a d
 
 ### MASKS & LAYER MODES
 
-The idea here is that these can be searched up in L2D to prep the model faster.
+The idea here is that these can be searched up in L2D to prep the model faster. 
+If these are on a group, it's meant to apply to all layers below (Atleast until offscreen drawing becomes adapted properly)
 
 ```
 _CL 			Layers that are clipped onto other layers. Target should be obvious from context.
@@ -120,7 +121,7 @@ _ADD  			Layer Mode: Additive
 
 ## EXAMPLE HIERARCHY DEMO
 ```
-_ROOT
+
 └── _Head											
 │	└── _Eye_L											("Head__" was omitted here because context makes it obvious its within the head)
 │		└──	_Eye_L__Iris_CL								("Eye_L__" cannot be omitted because Eye_L and Eye_R IDs would not be unique)
@@ -132,8 +133,8 @@ _ROOT
 │		└── ...
 └── _Body
 │	└── _O1__Jacket
-│		└── _O1__Jacket_O1__Arm_L
-│			└── O1__Jacket__Arm_L__Upper
+│		└── _O1__Jacket_O1__Arm_L						
+│			└── O1__Jacket__Arm_L__Upper				(-> An upper left arm -> That is part of the Jacket -> Which is outfit number 1)
 │			└── O1__Jacket__Arm_L__Lower
 │			└── _O1__Jacket__Arm_L__Sleeve
 │			│		└── ...
