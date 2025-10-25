@@ -64,6 +64,7 @@ This way you can always replace "\_R\_" with "\_L\_" and theres never an issue.
 
 
 ## VARIANTS
+
 ```
 Different variations of parts (e.g. outfits & hairstyles) have an identifying prefix that is an implied parent ("__").
 
